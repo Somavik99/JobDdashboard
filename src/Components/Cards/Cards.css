@@ -1,0 +1,44 @@
+.Card {
+  margin: 25px;
+  padding: 12px 18px;
+  border-bottom: 0.09rem solid rgba(28, 27, 27, 0.169);
+  position: relative;
+}
+
+.Card li {
+  color: gray;
+}
+
+.Tags {
+  /* position: absolute; */
+  display: flex;
+  gap: 5px;
+  left: 70%;
+  /* flex-wrap: wrap; */
+}
+
+.Tags p {
+    text-align: center;
+    font-size: 0.8rem;
+  margin: 5px;
+  padding: 10px 11px;
+  border-radius: 50px;
+}
+
+.Card button {
+  cursor: pointer;
+  border: 1.5px solid transparent;
+  background: whitesmoke;
+  color: slateblue;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 18px;
+  border-radius: 8px;
+}
+
+.Card button:hover {
+  transition: 0.5s ease;
+  border: 1.5px solid rgb(30, 215, 96);
+  background: rgb(91, 237, 150);
+  color: whitesmoke;
+}
