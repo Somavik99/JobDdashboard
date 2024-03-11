@@ -16,12 +16,12 @@ const DashBoard = () => {
         <SideBar />
       </div>
       <div className="Search__bar">
-        <div style={{margin:"10px",alignItems:"center"}}>
-          <GrLocationPin size="25"/>
+        <div style={{ margin: "10px", alignItems: "center" }}>
+          <GrLocationPin size="25" />
           <input type="text" placeholder="Location..." />
         </div>
-        <div style={{margin:"10px",alignItems:"center"}}>
-          <PiSuitcaseSimpleBold size="25"/>
+        <div style={{ margin: "10px", alignItems: "center" }}>
+          <PiSuitcaseSimpleBold size="25" />
           <input type="text" placeholder="Job or Company name..." />
         </div>
         <button>Search</button>
@@ -87,7 +87,7 @@ const DashBoard = () => {
           </div>
         </section>
         <section className="Card__section">
-          <h1>Search Result</h1>
+          <h1 style={{fontSize:"28px"}}>Search Result</h1>
           <Cards />
         </section>
       </div>

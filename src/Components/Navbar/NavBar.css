@@ -3,15 +3,20 @@
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  background-image: linear-gradient(
-    to right top,
-    #e9f0ed,
-    #e5ece9,
-    #e2e9e4,
-    #dee5e0,
-    #dbe1db
-  ); 
+  position:sticky;
+  top:0;
+    /* background-image: linear-gradient(
+      to right top,
+      #e9f0ed,
+      #e5ece9,
+      #e2e9e4,
+      #dee5e0,
+      #dbe1db
+    );  */
+    background-color: rgba(208, 252, 217, 0.498);
+    backdrop-filter: blur(15px);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  z-index: 10;
 }
 
 .Nav__container .Nav__links {

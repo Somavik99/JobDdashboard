@@ -28,8 +28,8 @@
 .Card button {
   cursor: pointer;
   border: 1.5px solid transparent;
-  background: whitesmoke;
-  color: slateblue;
+  background: rgb(209, 200, 242);
+  color: rgb(92, 74, 205);
   font-size: 15px;
   font-weight: 600;
   padding: 10px 18px;
