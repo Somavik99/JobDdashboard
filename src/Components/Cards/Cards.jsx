@@ -18,12 +18,14 @@ const Cards = () => {
                 display: "flex",
                 alignItems: "center",
                 flexDirection: "column",
+                flexWrap: "wrap",
               }}
             >
               <div>Product Manager</div>
+
               <div style={{ display: "flex", alignItems: "center" }}>
                 <div style={{ fontWeight: "600", color: "gray" }}>
-                  <FaMapLocationDot color="black"/> Bangalore, India
+                  <FaMapLocationDot color="black" /> Bangalore, India
                 </div>
                 <LuDot size="25" />
                 <span
@@ -35,6 +37,24 @@ const Cards = () => {
                 >
                   Airbnb
                 </span>
+              </div>
+              <div className="Tags">
+                <p
+                  style={{
+                    background: "rgb(172,252,214)",
+                    color: "rgb(4,138,70)",
+                  }}
+                >
+                  Full Time
+                </p>
+                <p
+                  style={{
+                    background: "rgb(203,192,249)",
+                    color: "rgb(119,86,250)",
+                  }}
+                >
+                  Onsite
+                </p>
               </div>
             </div>
           </div>
@@ -65,7 +85,7 @@ const Cards = () => {
               <div>Data-analyst</div>
               <div style={{ display: "flex", alignItems: "center" }}>
                 <div style={{ fontWeight: "600", color: "gray" }}>
-                  <FaMapLocationDot  color="black"/> Bangalore, India
+                  <FaMapLocationDot color="black" /> Bangalore, India
                 </div>
                 <LuDot size="25" />
                 <span
@@ -77,6 +97,24 @@ const Cards = () => {
                 >
                   Mind-map
                 </span>
+              </div>
+              <div className="Tags">
+                <p
+                  style={{
+                    background: "rgb(172,252,214)",
+                    color: "rgb(4,138,70)",
+                  }}
+                >
+                  Full Time
+                </p>
+                <p
+                  style={{
+                    background: "rgb(203,192,249)",
+                    color: "rgb(119,86,250)",
+                  }}
+                >
+                  Onsite
+                </p>
               </div>
             </div>
           </div>
@@ -107,7 +145,7 @@ const Cards = () => {
               <div>Fullstack Developer</div>
               <div style={{ display: "flex", alignItems: "center" }}>
                 <div style={{ fontWeight: "600", color: "gray" }}>
-                  <FaMapLocationDot  color="black"/> Bangalore, India
+                  <FaMapLocationDot color="black" /> Bangalore, India
                 </div>
                 <LuDot size="25" />
                 <span
@@ -119,6 +157,24 @@ const Cards = () => {
                 >
                   Stack Home
                 </span>
+              </div>
+              <div className="Tags">
+                <p
+                  style={{
+                    background: "rgb(172,252,214)",
+                    color: "rgb(4,138,70)",
+                  }}
+                >
+                  Full Time
+                </p>
+                <p
+                  style={{
+                    background: "rgb(203,192,249)",
+                    color: "rgb(119,86,250)",
+                  }}
+                >
+                  Onsite
+                </p>
               </div>
             </div>
           </div>
@@ -149,7 +205,7 @@ const Cards = () => {
               <div>Java Developer</div>
               <div style={{ display: "flex", alignItems: "center" }}>
                 <div style={{ fontWeight: "600", color: "gray" }}>
-                  <FaMapLocationDot  color="black"/> Bangalore, India
+                  <FaMapLocationDot color="black" /> Bangalore, India
                 </div>
                 <LuDot size="25" />
                 <span
@@ -161,6 +217,24 @@ const Cards = () => {
                 >
                   Airbnb
                 </span>
+              </div>
+              <div className="Tags">
+                <p
+                  style={{
+                    background: "rgb(172,252,214)",
+                    color: "rgb(4,138,70)",
+                  }}
+                >
+                  Full Time
+                </p>
+                <p
+                  style={{
+                    background: "rgb(203,192,249)",
+                    color: "rgb(119,86,250)",
+                  }}
+                >
+                  Onsite
+                </p>
               </div>
             </div>
           </div>

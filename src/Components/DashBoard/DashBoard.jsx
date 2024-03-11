@@ -5,6 +5,8 @@ import { IoMdStar } from "react-icons/io";
 import { HiOutlineComputerDesktop } from "react-icons/hi2";
 import { FaDatabase } from "react-icons/fa6";
 import { RiMenuSearchLine } from "react-icons/ri";
+import { GrLocationPin } from "react-icons/gr";
+import { PiSuitcaseSimpleBold } from "react-icons/pi";
 import "./DashBoard.css";
 
 const DashBoard = () => {
@@ -12,6 +14,17 @@ const DashBoard = () => {
     <div>
       <div className="side__bar">
         <SideBar />
+      </div>
+      <div className="Search__bar">
+        <div style={{margin:"10px",alignItems:"center"}}>
+          <GrLocationPin size="25"/>
+          <input type="text" placeholder="Location..." />
+        </div>
+        <div style={{margin:"10px",alignItems:"center"}}>
+          <PiSuitcaseSimpleBold size="25"/>
+          <input type="text" placeholder="Job or Company name..." />
+        </div>
+        <button>Search</button>
       </div>
       <div className="Cards__container">
         <h1>Popular Job</h1>
@@ -25,7 +38,7 @@ const DashBoard = () => {
             <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
               <p style={{ color: "gray" }}>5,000 Applied</p>
               <span>
-                <IoMdStar color="orange"/>
+                <IoMdStar color="orange" />
                 4.9
               </span>
             </div>
@@ -39,7 +52,7 @@ const DashBoard = () => {
             <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
               <p style={{ color: "gray" }}>5,000 Applied</p>
               <span>
-                <IoMdStar color="orange"/>
+                <IoMdStar color="orange" />
                 4.9
               </span>
             </div>
@@ -53,7 +66,7 @@ const DashBoard = () => {
             <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
               <p style={{ color: "gray" }}>5,000 Applied</p>
               <span>
-                <IoMdStar color="orange"/>
+                <IoMdStar color="orange" />
                 4.9
               </span>
             </div>
