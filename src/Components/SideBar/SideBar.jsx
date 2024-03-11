@@ -4,7 +4,7 @@ const SideBar = () => {
   return (
     <div>
         <div>
-            <h2>Filter</h2>
+            <h2>Filter </h2>
             <section>
 
             </section>
