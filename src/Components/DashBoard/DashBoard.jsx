@@ -73,10 +73,10 @@ const DashBoard = () => {
             </div>
           </div>
         </section>
-        <div>
+        <section className="Card__section">
           <h1>Search Result</h1>
           <Cards />
-        </div>
+        </section>
       </div>
     </div>
   );

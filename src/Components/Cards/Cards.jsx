@@ -2,15 +2,15 @@ import { FaMapLocationDot } from "react-icons/fa6";
 import { LuDot } from "react-icons/lu";
 import { FaAirbnb } from "react-icons/fa";
 import { FcMindMap } from "react-icons/fc";
-import { FaSlack,FaSnapchat } from "react-icons/fa6";
-import "./Cards.css"
+import { FaSlack, FaSnapchat } from "react-icons/fa6";
+import "./Cards.css";
 const Cards = () => {
   return (
     <div>
       <section>
         <div className="Card">
           <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
-            <span style={{border:"2px solid rgb(30,215,96",borderRadius:"8px"}}>
+            <span style={{ border: "none", borderRadius: "8px" }}>
               <FaAirbnb size="50" color="red" />
             </span>
             <div
@@ -22,11 +22,19 @@ const Cards = () => {
             >
               <div>Product Manager</div>
               <div style={{ display: "flex", alignItems: "center" }}>
-                <div>
-                  <FaMapLocationDot /> Bangalore, India
+                <div style={{ fontWeight: "600", color: "gray" }}>
+                  <FaMapLocationDot color="black"/> Bangalore, India
                 </div>
                 <LuDot size="25" />
-                <span style={{ alignItems: "center" }}>Airbnb</span>
+                <span
+                  style={{
+                    alignItems: "center",
+                    fontWeight: "600",
+                    color: "gray",
+                  }}
+                >
+                  Airbnb
+                </span>
               </div>
             </div>
           </div>
@@ -44,8 +52,8 @@ const Cards = () => {
         </div>
         <div className="Card">
           <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
-            <span style={{border:"2px solid rgb(30,215,96",borderRadius:"8px"}}>
-              <FcMindMap  size="50" color="red" />
+            <span style={{ border: "none", borderRadius: "8px" }}>
+              <FcMindMap size="50" color="red" />
             </span>
             <div
               style={{
@@ -56,11 +64,19 @@ const Cards = () => {
             >
               <div>Data-analyst</div>
               <div style={{ display: "flex", alignItems: "center" }}>
-                <div>
-                  <FaMapLocationDot /> Bangalore, India
+                <div style={{ fontWeight: "600", color: "gray" }}>
+                  <FaMapLocationDot  color="black"/> Bangalore, India
                 </div>
                 <LuDot size="25" />
-                <span style={{ alignItems: "center" }}>Mind-map</span>
+                <span
+                  style={{
+                    alignItems: "center",
+                    fontWeight: "600",
+                    color: "gray",
+                  }}
+                >
+                  Mind-map
+                </span>
               </div>
             </div>
           </div>
@@ -78,7 +94,7 @@ const Cards = () => {
         </div>
         <div className="Card">
           <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
-            <span style={{border:"2px solid rgb(30,215,96",borderRadius:"8px"}}>
+            <span style={{ border: "none", borderRadius: "8px" }}>
               <FaSlack size="50" color="red" />
             </span>
             <div
@@ -88,13 +104,21 @@ const Cards = () => {
                 flexDirection: "column",
               }}
             >
-              <div>Product Manager</div>
+              <div>Fullstack Developer</div>
               <div style={{ display: "flex", alignItems: "center" }}>
-                <div>
-                  <FaMapLocationDot /> Bangalore, India
+                <div style={{ fontWeight: "600", color: "gray" }}>
+                  <FaMapLocationDot  color="black"/> Bangalore, India
                 </div>
                 <LuDot size="25" />
-                <span style={{ alignItems: "center" }}>Stack Home</span>
+                <span
+                  style={{
+                    alignItems: "center",
+                    fontWeight: "600",
+                    color: "gray",
+                  }}
+                >
+                  Stack Home
+                </span>
               </div>
             </div>
           </div>
@@ -112,8 +136,8 @@ const Cards = () => {
         </div>
         <div className="Card">
           <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
-            <span style={{border:"2px solid rgb(30,215,96",borderRadius:"8px"}}>
-              <FaSnapchat size="50" color="red" />
+            <span style={{ border: "none", borderRadius: "8px" }}>
+              <FaSnapchat size="50" color="yellow" />
             </span>
             <div
               style={{
@@ -122,13 +146,21 @@ const Cards = () => {
                 flexDirection: "column",
               }}
             >
-              <div>Product Manager</div>
+              <div>Java Developer</div>
               <div style={{ display: "flex", alignItems: "center" }}>
-                <div>
-                  <FaMapLocationDot /> Bangalore, India
+                <div style={{ fontWeight: "600", color: "gray" }}>
+                  <FaMapLocationDot  color="black"/> Bangalore, India
                 </div>
                 <LuDot size="25" />
-                <span style={{ alignItems: "center" }}>Airbnb</span>
+                <span
+                  style={{
+                    alignItems: "center",
+                    fontWeight: "600",
+                    color: "gray",
+                  }}
+                >
+                  Airbnb
+                </span>
               </div>
             </div>
           </div>
