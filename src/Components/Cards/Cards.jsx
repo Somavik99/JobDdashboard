@@ -2,7 +2,13 @@
 
 const Cards = () => {
   return (
-    <div>Cards</div>
+    <div>
+        <section>
+<div className="">
+
+</div>
+        </section>
+    </div>
   )
 }
 
